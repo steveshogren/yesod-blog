@@ -1,8 +1,6 @@
 module Handler.Blog
        ( getBlogR
-       , postBlogR
-       , YesodNic
-       , nicHtmlField)
+       , postBlogR)
        where
 
 import Import
