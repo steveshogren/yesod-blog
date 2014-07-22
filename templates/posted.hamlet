@@ -1,4 +1,4 @@
 <h1>You've just posted
-<p>#{postedText}#{T.reverse postedText}
+<p>#{postedText}#{revPostedText}
 <hr>
 <p><a href=@{MirrorR}>Get Back</a>

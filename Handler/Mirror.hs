@@ -9,5 +9,6 @@ getMirrorR = defaultLayout $(widgetFile "mirror")
 postMirrorR :: Handler Html
 postMirrorR =  do
         postedText <- runInputPost $ ireq textField "content"
+        let revPostedText = T.reverse postedText
         defaultLayout $(widgetFile "posted")
   
